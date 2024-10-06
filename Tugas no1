@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class perhitungan {
+    public static void main(String[] args) {
+        // Konversi celcius ke farenheit
+        try (Scanner input = new Scanner(System.in)) {
+            // Konversi celcius ke fare;p'
+            nheit
+            System.out.print("Masukan suhu dalam celcius");
+            Double celcius = input.nextDouble();
+            Double fahrenheit = (celcius * 9 / 5) + 32;
+            System.out.println("Suhu dalam Fahtenheit: " + fahrenheit);
+
+        }
+    }
+   }

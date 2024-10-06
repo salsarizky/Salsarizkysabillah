@@ -1,0 +1,12 @@
+ import java.util.Scanner;
+
+public class perhitungan {
+    public static void main(String[] args) {
+ // Menghitung keliling lingkaran
+            System.out.print("Masukan jari-jari lingkaran");
+            Double jarijari = input.nextDouble();
+            Double keliling = 2 * Math.PI * jarijari;
+            System.out.println("Keliling lingkaran: " + keliling);
+        }
+    }
+   

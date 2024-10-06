@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class teluryangdibeli {
+    public static void main(String[] args) {
+        Scanner inputan = new Scanner(System.in);
+        System.out.print("Masukan (kg)telur yang dibeli: ");
+        Double KiloTelor = inputan.nextDouble();
+
+        System.out.print("Masukan Uang Bayar");
+        Double UangBayar = inputan.nextDouble();
+
+        double HargaTelur = KiloTelor * 28000;
+        double Kembalian = UangBayar - HargaTelur;
+        System.out.println("Harga telur per kilogram: " + Kembalian);
+    }
+}
